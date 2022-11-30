@@ -1,0 +1,497 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C497F532-706E-4CFF-BB0A-19174D54FF43}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>OGRENCIBILGISISTEMI</RootNamespace>
+    <AssemblyName>OGRENCIBILGISISTEMI</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AkademisyenDuzenle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AkademisyenDuzenle.Designer.cs">
+      <DependentUpon>AkademisyenDuzenle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AkademisyenListele.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AkademisyenListele.Designer.cs">
+      <DependentUpon>AkademisyenListele.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AkademisyenProfil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AkademisyenProfil.Designer.cs">
+      <DependentUpon>AkademisyenProfil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AnaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AnaForm.Designer.cs">
+      <DependentUpon>AnaForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BolumDuzenle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BolumDuzenle.Designer.cs">
+      <DependentUpon>BolumDuzenle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Class1.cs" />
+    <Compile Include="DersKaydiDuzenle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DersKaydiDuzenle.Designer.cs">
+      <DependentUpon>DersKaydiDuzenle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DersPlani.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DersPlani.Designer.cs">
+      <DependentUpon>DersPlani.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DersProgrami.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DersProgrami.Designer.cs">
+      <DependentUpon>DersProgrami.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DersSecme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DersSecme.Designer.cs">
+      <DependentUpon>DersSecme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Devam.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Devam.Designer.cs">
+      <DependentUpon>Devam.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GIRIS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GIRIS.Designer.cs">
+      <DependentUpon>GIRIS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NotGirisi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NotGirisi.Designer.cs">
+      <DependentUpon>NotGirisi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OGRBILGISISTEMIDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OGRBILGISISTEMIDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="OGRBILGISISTEMIDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OGRBILGISISTEMIDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="OGRBILGISISTEMIDataSet10.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OGRBILGISISTEMIDataSet10.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="OGRBILGISISTEMIDataSet11.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OGRBILGISISTEMIDataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="OGRBILGISISTEMIDataSet12.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OGRBILGISISTEMIDataSet12.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="OGRBILGISISTEMIDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OGRBILGISISTEMIDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="OGRBILGISISTEMIDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OGRBILGISISTEMIDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="OGRBILGISISTEMIDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OGRBILGISISTEMIDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="OGRBILGISISTEMIDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OGRBILGISISTEMIDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="OGRBILGISISTEMIDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OGRBILGISISTEMIDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="OGRBILGISISTEMIDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OGRBILGISISTEMIDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="OGRBILGISISTEMIDataSet8.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OGRBILGISISTEMIDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="OGRBILGISISTEMIDataSet9.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OGRBILGISISTEMIDataSet9.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="OgrenciDuzenle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OgrenciDuzenle.Designer.cs">
+      <DependentUpon>OgrenciDuzenle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OgrenciListele.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OgrenciListele.Designer.cs">
+      <DependentUpon>OgrenciListele.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OgrenciProfil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OgrenciProfil.Designer.cs">
+      <DependentUpon>OgrenciProfil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SinavSonuc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SinavSonuc.Designer.cs">
+      <DependentUpon>SinavSonuc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Transkript.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Transkript.Designer.cs">
+      <DependentUpon>Transkript.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Yedekleme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Yedekleme.Designer.cs">
+      <DependentUpon>Yedekleme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Yetkilendirme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Yetkilendirme.Designer.cs">
+      <DependentUpon>Yetkilendirme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Yuzde.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Yuzde.Designer.cs">
+      <DependentUpon>Yuzde.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AkademisyenDuzenle.resx">
+      <DependentUpon>AkademisyenDuzenle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AkademisyenListele.resx">
+      <DependentUpon>AkademisyenListele.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AkademisyenProfil.resx">
+      <DependentUpon>AkademisyenProfil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AnaForm.resx">
+      <DependentUpon>AnaForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BolumDuzenle.resx">
+      <DependentUpon>BolumDuzenle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DersKaydiDuzenle.resx">
+      <DependentUpon>DersKaydiDuzenle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DersPlani.resx">
+      <DependentUpon>DersPlani.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DersProgrami.resx">
+      <DependentUpon>DersProgrami.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DersSecme.resx">
+      <DependentUpon>DersSecme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Devam.resx">
+      <DependentUpon>Devam.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GIRIS.resx">
+      <DependentUpon>GIRIS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NotGirisi.resx">
+      <DependentUpon>NotGirisi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OgrenciDuzenle.resx">
+      <DependentUpon>OgrenciDuzenle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OgrenciListele.resx">
+      <DependentUpon>OgrenciListele.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OgrenciProfil.resx">
+      <DependentUpon>OgrenciProfil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="SinavSonuc.resx">
+      <DependentUpon>SinavSonuc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Transkript.resx">
+      <DependentUpon>Transkript.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Yedekleme.resx">
+      <DependentUpon>Yedekleme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Yetkilendirme.resx">
+      <DependentUpon>Yetkilendirme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Yuzde.resx">
+      <DependentUpon>Yuzde.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="OGRBILGISISTEMIDataSet.xsc">
+      <DependentUpon>OGRBILGISISTEMIDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="OGRBILGISISTEMIDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>OGRBILGISISTEMIDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="OGRBILGISISTEMIDataSet.xss">
+      <DependentUpon>OGRBILGISISTEMIDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="OGRBILGISISTEMIDataSet1.xsc">
+      <DependentUpon>OGRBILGISISTEMIDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="OGRBILGISISTEMIDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>OGRBILGISISTEMIDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="OGRBILGISISTEMIDataSet1.xss">
+      <DependentUpon>OGRBILGISISTEMIDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="OGRBILGISISTEMIDataSet10.xsc">
+      <DependentUpon>OGRBILGISISTEMIDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="OGRBILGISISTEMIDataSet10.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>OGRBILGISISTEMIDataSet10.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="OGRBILGISISTEMIDataSet10.xss">
+      <DependentUpon>OGRBILGISISTEMIDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="OGRBILGISISTEMIDataSet11.xsc">
+      <DependentUpon>OGRBILGISISTEMIDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="OGRBILGISISTEMIDataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>OGRBILGISISTEMIDataSet11.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="OGRBILGISISTEMIDataSet11.xss">
+      <DependentUpon>OGRBILGISISTEMIDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="OGRBILGISISTEMIDataSet12.xsc">
+      <DependentUpon>OGRBILGISISTEMIDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="OGRBILGISISTEMIDataSet12.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>OGRBILGISISTEMIDataSet12.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="OGRBILGISISTEMIDataSet12.xss">
+      <DependentUpon>OGRBILGISISTEMIDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="OGRBILGISISTEMIDataSet2.xsc">
+      <DependentUpon>OGRBILGISISTEMIDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="OGRBILGISISTEMIDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>OGRBILGISISTEMIDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="OGRBILGISISTEMIDataSet2.xss">
+      <DependentUpon>OGRBILGISISTEMIDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="OGRBILGISISTEMIDataSet3.xsc">
+      <DependentUpon>OGRBILGISISTEMIDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="OGRBILGISISTEMIDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>OGRBILGISISTEMIDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="OGRBILGISISTEMIDataSet3.xss">
+      <DependentUpon>OGRBILGISISTEMIDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="OGRBILGISISTEMIDataSet4.xsc">
+      <DependentUpon>OGRBILGISISTEMIDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="OGRBILGISISTEMIDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>OGRBILGISISTEMIDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="OGRBILGISISTEMIDataSet4.xss">
+      <DependentUpon>OGRBILGISISTEMIDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="OGRBILGISISTEMIDataSet5.xsc">
+      <DependentUpon>OGRBILGISISTEMIDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="OGRBILGISISTEMIDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>OGRBILGISISTEMIDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="OGRBILGISISTEMIDataSet5.xss">
+      <DependentUpon>OGRBILGISISTEMIDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="OGRBILGISISTEMIDataSet6.xsc">
+      <DependentUpon>OGRBILGISISTEMIDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="OGRBILGISISTEMIDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>OGRBILGISISTEMIDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="OGRBILGISISTEMIDataSet6.xss">
+      <DependentUpon>OGRBILGISISTEMIDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="OGRBILGISISTEMIDataSet7.xsc">
+      <DependentUpon>OGRBILGISISTEMIDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="OGRBILGISISTEMIDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>OGRBILGISISTEMIDataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="OGRBILGISISTEMIDataSet7.xss">
+      <DependentUpon>OGRBILGISISTEMIDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="OGRBILGISISTEMIDataSet8.xsc">
+      <DependentUpon>OGRBILGISISTEMIDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="OGRBILGISISTEMIDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>OGRBILGISISTEMIDataSet8.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="OGRBILGISISTEMIDataSet8.xss">
+      <DependentUpon>OGRBILGISISTEMIDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="OGRBILGISISTEMIDataSet9.xsc">
+      <DependentUpon>OGRBILGISISTEMIDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="OGRBILGISISTEMIDataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>OGRBILGISISTEMIDataSet9.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="OGRBILGISISTEMIDataSet9.xss">
+      <DependentUpon>OGRBILGISISTEMIDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>9</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

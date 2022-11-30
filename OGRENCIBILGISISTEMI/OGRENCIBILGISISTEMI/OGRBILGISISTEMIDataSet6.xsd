@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="OGRBILGISISTEMIDataSet6" targetNamespace="http://tempuri.org/OGRBILGISISTEMIDataSet6.xsd" xmlns:mstns="http://tempuri.org/OGRBILGISISTEMIDataSet6.xsd" xmlns="http://tempuri.org/OGRBILGISISTEMIDataSet6.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="OGRBILGISISTEMIConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="OGRBILGISISTEMIConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.OGRENCIBILGISISTEMI.Properties.Settings.GlobalReference.Default.OGRBILGISISTEMIConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="vwogrkayitTableAdapter" GeneratorDataComponentClassName="vwogrkayitTableAdapter" Name="vwogrkayit" UserDataComponentName="vwogrkayitTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="OGRBILGISISTEMIConnectionString (Settings)" DbObjectName="OGRBILGISISTEMI.dbo.vwogrkayit" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT ogrencıdersID, ogrno, derskodu FROM dbo.vwogrkayit</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="ogrencıdersID" DataSetColumn="ogrencıdersID" />
+              <Mapping SourceColumn="ogrno" DataSetColumn="ogrno" />
+              <Mapping SourceColumn="derskodu" DataSetColumn="derskodu" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="OGRBILGISISTEMIDataSet6" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="OGRBILGISISTEMIDataSet6" msprop:Generator_UserDSName="OGRBILGISISTEMIDataSet6">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="vwogrkayit" msprop:Generator_TableClassName="vwogrkayitDataTable" msprop:Generator_TableVarName="tablevwogrkayit" msprop:Generator_TablePropName="vwogrkayit" msprop:Generator_RowDeletingName="vwogrkayitRowDeleting" msprop:Generator_RowChangingName="vwogrkayitRowChanging" msprop:Generator_RowEvHandlerName="vwogrkayitRowChangeEventHandler" msprop:Generator_RowDeletedName="vwogrkayitRowDeleted" msprop:Generator_UserTableName="vwogrkayit" msprop:Generator_RowChangedName="vwogrkayitRowChanged" msprop:Generator_RowEvArgName="vwogrkayitRowChangeEvent" msprop:Generator_RowClassName="vwogrkayitRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ogrencıdersID" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnogrencıdersID" msprop:Generator_ColumnPropNameInRow="ogrencıdersID" msprop:Generator_ColumnPropNameInTable="ogrencıdersIDColumn" msprop:Generator_UserColumnName="ogrencıdersID" type="xs:int" />
+              <xs:element name="ogrno" msprop:Generator_ColumnVarNameInTable="columnogrno" msprop:Generator_ColumnPropNameInRow="ogrno" msprop:Generator_ColumnPropNameInTable="ogrnoColumn" msprop:Generator_UserColumnName="ogrno" type="xs:int" minOccurs="0" />
+              <xs:element name="derskodu" msprop:Generator_ColumnVarNameInTable="columnderskodu" msprop:Generator_ColumnPropNameInRow="derskodu" msprop:Generator_ColumnPropNameInTable="derskoduColumn" msprop:Generator_UserColumnName="derskodu" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="10" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:vwogrkayit" />
+      <xs:field xpath="mstns:ogrencıdersID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,33 @@
+c:\users\pcburada\documents\visual studio 2013\Projects\OGRENCIBILGISISTEMI\OGRENCIBILGISISTEMI\bin\Debug\OGRENCIBILGISISTEMI.exe.config
+c:\users\pcburada\documents\visual studio 2013\Projects\OGRENCIBILGISISTEMI\OGRENCIBILGISISTEMI\bin\Debug\OGRENCIBILGISISTEMI.exe
+c:\users\pcburada\documents\visual studio 2013\Projects\OGRENCIBILGISISTEMI\OGRENCIBILGISISTEMI\bin\Debug\OGRENCIBILGISISTEMI.pdb
+c:\users\pcburada\documents\visual studio 2013\Projects\OGRENCIBILGISISTEMI\OGRENCIBILGISISTEMI\obj\Debug\OGRENCIBILGISISTEMI.csprojResolveAssemblyReference.cache
+c:\users\pcburada\documents\visual studio 2013\Projects\OGRENCIBILGISISTEMI\OGRENCIBILGISISTEMI\obj\Debug\OGRENCIBILGISISTEMI.GIRIS.resources
+c:\users\pcburada\documents\visual studio 2013\Projects\OGRENCIBILGISISTEMI\OGRENCIBILGISISTEMI\obj\Debug\OGRENCIBILGISISTEMI.Properties.Resources.resources
+c:\users\pcburada\documents\visual studio 2013\Projects\OGRENCIBILGISISTEMI\OGRENCIBILGISISTEMI\obj\Debug\OGRENCIBILGISISTEMI.csproj.GenerateResource.Cache
+c:\users\pcburada\documents\visual studio 2013\Projects\OGRENCIBILGISISTEMI\OGRENCIBILGISISTEMI\obj\Debug\OGRENCIBILGISISTEMI.exe
+c:\users\pcburada\documents\visual studio 2013\Projects\OGRENCIBILGISISTEMI\OGRENCIBILGISISTEMI\obj\Debug\OGRENCIBILGISISTEMI.pdb
+C:\Users\PCburada\Documents\Visual Studio 2013\Projects\OGRENCIBILGISISTEMI\OGRENCIBILGISISTEMI\obj\Debug\OGRENCIBILGISISTEMI.AnaForm.resources
+C:\Users\PCburada\Documents\Visual Studio 2013\Projects\OGRENCIBILGISISTEMI\OGRENCIBILGISISTEMI\obj\Debug\OGRENCIBILGISISTEMI.OgrenciDuzenle.resources
+C:\Users\PCburada\Documents\Visual Studio 2013\Projects\OGRENCIBILGISISTEMI\OGRENCIBILGISISTEMI\obj\Debug\OGRENCIBILGISISTEMI.AkademisyenDuzenle.resources
+C:\Users\PCburada\Documents\Visual Studio 2013\Projects\OGRENCIBILGISISTEMI\OGRENCIBILGISISTEMI\obj\Debug\OGRENCIBILGISISTEMI.DersSecme.resources
+C:\Users\PCburada\Documents\Visual Studio 2013\Projects\OGRENCIBILGISISTEMI\OGRENCIBILGISISTEMI\obj\Debug\OGRENCIBILGISISTEMI.OgrenciListele.resources
+C:\Users\PCburada\Documents\Visual Studio 2013\Projects\OGRENCIBILGISISTEMI\OGRENCIBILGISISTEMI\obj\Debug\OGRENCIBILGISISTEMI.NotGirisi.resources
+C:\Users\PCburada\Documents\Visual Studio 2013\Projects\OGRENCIBILGISISTEMI\OGRENCIBILGISISTEMI\obj\Debug\OGRENCIBILGISISTEMI.csproj.ResolveComReference.cache
+C:\Users\PCburada\Documents\Visual Studio 2013\Projects\OGRENCIBILGISISTEMI\OGRENCIBILGISISTEMI\obj\Debug\OGRENCIBILGISISTEMI.SinavSonuc.resources
+C:\Users\PCburada\Documents\Visual Studio 2013\Projects\OGRENCIBILGISISTEMI\OGRENCIBILGISISTEMI\obj\Debug\OGRENCIBILGISISTEMI.Devam.resources
+C:\Users\PCburada\Documents\Visual Studio 2013\Projects\OGRENCIBILGISISTEMI\OGRENCIBILGISISTEMI\obj\Debug\OGRENCIBILGISISTEMI.DersPlani.resources
+C:\Users\PCburada\Documents\Visual Studio 2013\Projects\OGRENCIBILGISISTEMI\OGRENCIBILGISISTEMI\obj\Debug\OGRENCIBILGISISTEMI.DersProgrami.resources
+C:\Users\PCburada\Documents\Visual Studio 2013\Projects\OGRENCIBILGISISTEMI\OGRENCIBILGISISTEMI\obj\Debug\OGRENCIBILGISISTEMI.BolumDuzenle.resources
+C:\Users\PCburada\Documents\Visual Studio 2013\Projects\OGRENCIBILGISISTEMI\OGRENCIBILGISISTEMI\obj\Debug\OGRENCIBILGISISTEMI.DersKaydiDuzenle.resources
+C:\Users\PCburada\Documents\Visual Studio 2013\Projects\OGRENCIBILGISISTEMI\OGRENCIBILGISISTEMI\obj\Debug\OGRENCIBILGISISTEMI.AkademisyenListele.resources
+C:\Users\PCburada\Documents\Visual Studio 2013\Projects\OGRENCIBILGISISTEMI\OGRENCIBILGISISTEMI\obj\Debug\OGRENCIBILGISISTEMI.Yetkilendirme.resources
+C:\Users\PCburada\Documents\Visual Studio 2013\Projects\OGRENCIBILGISISTEMI\OGRENCIBILGISISTEMI\obj\Debug\OGRENCIBILGISISTEMI.OgrenciProfil.resources
+C:\Users\PCburada\Documents\Visual Studio 2013\Projects\OGRENCIBILGISISTEMI\OGRENCIBILGISISTEMI\obj\Debug\OGRENCIBILGISISTEMI.AkademisyenProfil.resources
+C:\Users\PCburada\Documents\Visual Studio 2013\Projects\OGRENCIBILGISISTEMI\OGRENCIBILGISISTEMI\obj\Debug\OGRENCIBILGISISTEMI.Transkript.resources
+C:\Users\PCburada\Documents\Visual Studio 2013\Projects\OGRENCIBILGISISTEMI\OGRENCIBILGISISTEMI\obj\Debug\OGRENCIBILGISISTEMI.Yuzde.resources
+C:\Users\PCburada\Documents\Visual Studio 2013\Projects\OGRENCIBILGISISTEMI\OGRENCIBILGISISTEMI\obj\Debug\OGRENCIBILGISISTEMI.Yedekleme.resources
+C:\Users\pcburada\Dropbox\OBS proje - Kopya\OGRENCIBILGISISTEMI\OGRENCIBILGISISTEMI\bin\Debug\OGRENCIBILGISISTEMI.exe.config
+C:\Users\pcburada\Dropbox\OBS proje - Kopya\OGRENCIBILGISISTEMI\OGRENCIBILGISISTEMI\obj\Debug\OGRENCIBILGISISTEMI.csproj.ResolveComReference.cache
+C:\Users\pcburada\Dropbox\OBS proje - Kopya\OGRENCIBILGISISTEMI\OGRENCIBILGISISTEMI\obj\Debug\OGRENCIBILGISISTEMI.exe
+C:\Users\pcburada\Dropbox\OBS proje - Kopya\OGRENCIBILGISISTEMI\OGRENCIBILGISISTEMI\obj\Debug\OGRENCIBILGISISTEMI.pdb
